@@ -7,6 +7,10 @@ import utils.MyUtil;
  * @version v1.0.0
  * @date 2018/7/23 下午11:22
  * @Description
+ *
+ * 查找一个数列中的第几个数算法
+ * 解析：用快速排序的 partition 算法
+ *
  */
 
 public class KthNum {

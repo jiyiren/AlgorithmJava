@@ -33,6 +33,7 @@ public class FullCombine {
     }
 
     public static void SingleSubSet(int startIndex, List<Character> tempList) {
+        // 这里包函了空集，若要不包含，则这里加个空判断，是空则不加入 result
         result.add(new ArrayList<>(tempList));
         for (int i = startIndex; i < length; i++) {
             tempList.add(data[i]);
